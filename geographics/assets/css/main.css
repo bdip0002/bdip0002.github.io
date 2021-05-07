@@ -1,0 +1,41 @@
+
+#content, html, body {
+    height: 100%;
+	
+}
+#left {
+    float: left;
+	max-width: 25%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	padding: 0 4px;
+    overflow: scroll;
+}
+#left2 {
+    float: left;
+	max-width: 25%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	padding: 0 4px;
+    overflow: scroll;
+}
+#right1 {
+    float: right;
+	max-width: 25%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	padding: 0 4px;
+    overflow: scroll;
+}
+#right2 {
+    float: right;
+	max-width: 25%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	padding: 0 4px;
+    overflow: scroll;
+}
