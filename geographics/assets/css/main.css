@@ -1,33 +1,16 @@
-.slide {
-	width: 100vw;
-	height: 100vh;
-  }
-  .wrapper {
-	display: flex;
-	flex-direction: row;
-	width: 400vw;
-		  transform: rotate(90deg) translateY(-100vh);
-		  transform-origin: top left;
-		}
-		.outer-wrapper {
-		  width: 100vh;
-		  height: 100vw;
-		  transform: rotate(-90deg) translateX(-100vh);
-		  transform-origin: top left;
-		  overflow-y: scroll;
-		  overflow-x: hidden;
-		  position: absolute;
-		}
-  .one {
-	background: #efdefe;
-  }
-  .two {
-	background: #a3f3d3;
-  }
-  .three {
-	background: #0bbaa0;
-  }
-  .four {
-	background: #00dfdf;
+.horizontal-scroll-wrapper {
+	width: 100px;
+	height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+		transform: rotate(-90deg);
+		transform-origin: right top;
+		transform:rotate(-90deg) translateY(-100px);
+	  }
+  .horizontal-scroll-wrapper > div {
+	width: 100px;
+	height: 100px;
+		transform: rotate(90deg);
+  		transform-origin: right top;
   }
   
