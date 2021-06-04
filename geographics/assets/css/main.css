@@ -33,11 +33,12 @@ a {
 	flex-shrink:0;  
 	width: 15%;
 	height: 350px;
-	box-shadow:1px 1px 5px #ccc;
-	box-shadow:-1px -1px 5px #ccc;
+	box-shadow:inset 0px 0px 5px #ccc;
 	margin: 8px white;
 	
 }
+
+
 
 
 .menu {
